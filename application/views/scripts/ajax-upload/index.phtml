@@ -1,0 +1,12 @@
+<div id="ajaxUpload">
+	<input type="file" class="selectedFiles is_selectedFiles" multiple="multiple" accept="image/*">
+	<div class="fileQueue is_fileQueue"></div>
+	<button onclick="sendFiles();">Hochladen</button>
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+	$(document).ready(function() {
+		AjaxUpload.init();
+	});
+/* ]]> */
+</script>

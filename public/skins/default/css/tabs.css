@@ -1,0 +1,62 @@
+#element {
+	margin: 20px;
+	width: 350px;
+}
+
+	#element .head {
+		background: url('/img/widget-head-bg.png') repeat-x;
+		width: 350px;
+		height: 20px;
+		-moz-border-radius-topleft: 10px 10px;
+		-moz-border-radius-topright: 10px 10px;
+		-webkit-border-top-left-radius: 10px 10px;
+		-webkit-border-top-right-radius: 10px 10px;
+	}
+
+		#tabs {
+			padding: 0 0 0 15px;
+		}
+
+			#tabs li {
+				border: solid black;
+				border-width: 0 1px 0 0;
+				float: left;
+			}
+
+			#tabs li.last {
+				border: 0;
+			}
+
+			#tabs li.active {
+				background: #ccc;
+			}
+
+			#tabs li:hover {
+				background: #ddd;
+			}
+
+				#tabs li a {
+					padding: 2px 3px;
+					display: block;
+					font-weight: normal;
+					font-size: 12px;
+					color: black;
+				}
+
+				#tabs li a:hover {
+					text-decoration: none;
+				}
+
+#element .content {
+	border: solid #aaa;
+	border-width: 0 1px;
+	height: 200px;
+}
+
+#element .foot {
+	border: solid #aaa;
+	border-width: 0 1px;
+	background: #aaa;
+	height: 15px;
+	padding: 0 0 0 5px;
+}

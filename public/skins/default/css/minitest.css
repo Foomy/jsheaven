@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#minitest {
+	padding: 25px;
+}
+
+	#minitest .console {
+		border: solid 1px black;
+		width: 320px;
+		height: 200px;
+	}

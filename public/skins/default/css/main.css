@@ -1,0 +1,21 @@
+#glider {
+	margin: 10px;
+	float: left;
+}
+
+#footnote {
+    margin: 20px 0 10px 0;
+}
+
+#footnote .geekcode  {
+	font-size: 0.9em;
+    color: red;
+}
+
+#logo h1 {
+	margin: 15px 0 10px 15px;
+}
+
+#logo .slogan {
+	margin: 0 0 20px 50px;
+}

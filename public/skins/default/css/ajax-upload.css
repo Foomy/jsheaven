@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#ajaxUpload {
+	padding: 20px;
+}
+
+#ajaxUpload .selectedFiles {
+	border: solid 1px red;
+	width: 500px;
+	padding: 3px;
+	margin: 0 0 10px 0;
+}

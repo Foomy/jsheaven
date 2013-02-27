@@ -1,0 +1,26 @@
+#navigation {
+    border: dashed 1px #777;
+    padding: 3px 3px 1px 3px; /* 1px here plus 2px from the last li == 3px bottom */
+    margin: 10px auto;
+    width: 170px;
+}
+
+#navigation li {
+    border: solid 1px black;
+    padding: 2px 2px 2px 4px;
+    margin: 0 0 2px 0;
+}
+
+#navigation li:hover {
+    border: solid 1px #aaa;
+}
+
+#navigation li a {
+    color: black;
+    display: block;
+}
+
+#navigation li a:hover {
+    color: #aaa;
+    text-decoration: none;
+}

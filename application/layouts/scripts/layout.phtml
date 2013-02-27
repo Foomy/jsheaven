@@ -1,0 +1,49 @@
+<?php echo $this->doctype() . PHP_EOL; ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<?php echo $this->headMeta() . PHP_EOL; ?>
+	<?php echo $this->headTitle() . PHP_EOL; ?>
+	<?php 
+		$this->loadSkin($this->skin);
+		echo $this->headLink() . PHP_EOL;
+		
+		echo $this->headScript() . PHP_EOL;
+	?>
+</head>
+
+<body>
+	<div id="pagewrapper">
+	
+		<div id="header">
+			<div id="logo">
+				<h1>
+					<?php echo TITLE_PREFIX; ?>
+					<?php echo PROJECT_TITLE; ?>
+				</h1>
+				<div class="slogan">
+					<a class="is_extern_link" href="http://www.youtube.com/watch?v=YZMsNpyaHcA">...das Wort heißt nukular!</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="leftcol">
+			<?php echo $this->partial('Partials/_navigation.phtml'); ?>
+		</div>
+		
+		<div id="rightcol">
+			<?php echo $this->layout()->content; ?>
+		</div>
+		
+		<div id="footer">
+			<div id="glider">
+				<a href='http://www.zcat.de/docs/hacker-emblem/'><img src='http://www.catb.org/hacker-emblem/glider.png' alt='hacker emblem' /></a>
+			</div>
+			<div id="footnote">
+				<p>SirFoomy was here.</p>
+				<a class="geekcode is_extern_link" href="http://www.geekcode.com/" title="What is geek code?">GCS d-- s-:+ a C++$>(+++) UL P+ L+ E? W++ N+ o? K? w !O !M V? PS+ PE Y+ PGP+ t++>(+++) 5+ X+ R !tv b+ DI D G e-- h r- y?</a>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

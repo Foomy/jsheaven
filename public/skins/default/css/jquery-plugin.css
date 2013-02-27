@@ -1,0 +1,36 @@
+#jQueryPlugins {
+	margin: 50px 0 0 50px;
+}
+
+	#jQueryPlugins ul {
+		list-style-type: square;
+	}
+
+		#jQueryPlugins ul li {
+			padding: 3px;
+		}
+
+#firstTry .left {
+	border: dashed 1px red;
+	width: 120px;
+	float: left;
+}
+
+#firstTry .middle {
+	border: dashed 1px green;
+	width: 500px;
+	margin: 0 0 5px 0;
+	float: left;
+}
+
+#firstTry .right {
+	border: dashed 1px blue;
+	width: 120px;
+	margin: 0 0 5px 0;
+	float: left;
+}
+
+	#firstTry .right img {
+		width: 120px;
+		height: 120px;
+	}

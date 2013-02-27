@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin>
+	<stylesheets>
+		<stylesheet>layout.css</stylesheet>
+		<stylesheet>common.css</stylesheet>
+		<stylesheet>navigation.css</stylesheet>
+		<stylesheet>main.css</stylesheet>
+		<stylesheet>tabs.css</stylesheet>
+		<stylesheet>jquery-plugin.css</stylesheet>
+		<stylesheet>inplace-editor.css</stylesheet>
+        <stylesheet>ajax-upload.css</stylesheet>
+		<stylesheet>game-of-life.css</stylesheet>
+		<stylesheet>sierpinski.css</stylesheet>
+	</stylesheets>
+</skin>

@@ -1,7 +1,7 @@
 Util = {
 
 	/**
-	 * Checks if the given value is not definied.
+	 * Checks if the given value is not defined.
 	 * 
 	 * @param {Mixed}
 	 *            value value the value to check
